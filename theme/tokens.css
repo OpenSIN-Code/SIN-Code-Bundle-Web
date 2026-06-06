@@ -1,0 +1,86 @@
+# Purpose: Bundle-Web design tokens — shared color/spacing/typography for the
+# Next.js GUI. Mirrors the TUI theme so TUI + GUI speak the same visual language.
+# Docs: theme/tokens.doc.md
+
+# ============================================================
+# Color tokens (HSL space, mapped to shadcn/ui variables)
+# ============================================================
+
+# Brand
+--sin-primary: 280 65% 75%;          /* #cba6f7 - SIN magenta */
+--sin-primary-fg: 240 21% 15%;
+--sin-accent: 174 65% 70%;           /* #94e2d5 - cyan */
+--sin-accent-fg: 240 21% 15%;
+--sin-accent-2: 232 97% 85%;         /* #b4befe - periwinkle */
+
+# Base (dark mode, Catppuccin Mocha-ish)
+--sin-bg: 240 21% 14%;               /* #1e1e2e */
+--sin-surface: 237 16% 23%;          /* #313244 */
+--sin-surface-2: 234 16% 30%;        /* #45475a */
+--sin-overlay: 234 16% 38%;          /* #585b70 */
+
+# Text
+--sin-fg: 227 68% 88%;               /* #cdd6f4 */
+--sin-muted: 228 17% 67%;            /* #a6adc8 */
+--sin-faint: 227 14% 47%;            /* #6c7086 */
+
+# Semantic
+--sin-success: 115 54% 76%;          /* #a6e3a1 */
+--sin-warning: 41 88% 83%;           /* #f9e2af */
+--sin-danger: 343 81% 75%;           /* #f38ba8 */
+--sin-info: 217 92% 76%;             /* #89b4fa */
+
+# Severity
+--sin-critical: 0 100% 67%;         /* #ff5555 */
+--sin-high: 25 95% 75%;              /* #fab387 */
+--sin-medium: 41 88% 83%;
+--sin-low: 228 17% 67%;
+--sin-sev-info: 189 71% 68%;
+
+# ============================================================
+# Spacing
+# ============================================================
+--sin-space-0: 0;
+--sin-space-1: 0.25rem;
+--sin-space-2: 0.5rem;
+--sin-space-3: 0.75rem;
+--sin-space-4: 1rem;
+--sin-space-6: 1.5rem;
+--sin-space-8: 2rem;
+
+# ============================================================
+# Typography
+# ============================================================
+--sin-font-sans: 'Inter', system-ui, sans-serif;
+--sin-font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+--sin-font-display: 'Cal Sans', 'Inter', sans-serif;
+
+--sin-text-xs: 0.75rem;
+--sin-text-sm: 0.875rem;
+--sin-text-base: 1rem;
+--sin-text-lg: 1.125rem;
+--sin-text-xl: 1.25rem;
+--sin-text-2xl: 1.5rem;
+--sin-text-3xl: 1.875rem;
+
+# ============================================================
+# Radius / shadows
+# ============================================================
+--sin-radius-sm: 0.25rem;
+--sin-radius: 0.5rem;
+--sin-radius-md: 0.75rem;
+--sin-radius-lg: 1rem;
+
+--sin-shadow-sm: 0 1px 2px rgb(0 0 0 / 0.05);
+--sin-shadow: 0 1px 3px rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+--sin-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+--sin-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+# ============================================================
+# Animation
+# ============================================================
+--sin-ease: cubic-bezier(0.4, 0, 0.2, 1);
+--sin-ease-out: cubic-bezier(0, 0, 0.2, 1);
+--sin-dur-fast: 150ms;
+--sin-dur: 200ms;
+--sin-dur-slow: 300ms;
